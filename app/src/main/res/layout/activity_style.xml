@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    tools:context=".styleActivity">
+    <CheckBox
+        android:id="@+id/Hair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hair Service (2 Rial)"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <CheckBox
+        android:id="@+id/Beard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beard Service (2 Rial)"
+        android:layout_below="@id/Hair"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <Button
+        android:id="@+id/ConfirmAppointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Beard"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="38dp"
+        android:backgroundTint="#686565"
+        android:text="Confirm Appointment" />
+
+    <TextView
+        android:id="@+id/SelectedServices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/ConfirmAppointment"
+        android:textStyle="bold"
+        android:backgroundTint="#686565"
+        android:layout_marginStart="16dp"/>
+
+    <Button
+        android:id="@+id/CloseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SelectedServices"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="#686565"
+        android:text="Close App" />
+
+
+</RelativeLayout>
